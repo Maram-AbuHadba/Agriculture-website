@@ -166,6 +166,9 @@ header{
 
 
  /* start about */
+ .about{
+  padding-top: 5%;
+ }
 
  .about-parent  {
   width: 35%;
@@ -209,8 +212,8 @@ header{
 }
 .about-content  .title .sup-title {
   position: relative;
-  font-size: 17px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 700;
   padding-left: 40px;
   color:#F4A700;
   margin-bottom: 5%;
@@ -281,6 +284,9 @@ ul{
 
  /* start projects*/
 
+ .project{
+  padding-top: 5%;
+ }
  .row1 {
   display: flex;
   align-items: center;
@@ -294,24 +300,34 @@ ul{
   opacity: 0.5;
 }
 
-.project .project-content{
-  margin-top: 101px;
+.project .project-content img {
+  width: 2.5%;
 }
-
+.project .project-content .title1{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.project .project-content .title{
+  position: relative;
+  font-size: 17px;
+  font-weight: 800;
+  padding-left: 40px;
+  color:#F4A700;
+  margin-bottom: 5%;
+ }
 .project .project-content h3{
   color: #F4A700;
   text-align: center;
   font-size: 18px;
   font-weight: 700;
   line-height: 26px;
-  margin: 0px 0px 4px 0px;
+  margin-bottom:  4px;
 }
 
 .project .project-content h2{
-  color: #435a52;
   text-align: center;
   font-size: 52px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.1923076923076923em;
   margin: 0px 0px 0px 0px;
   padding-bottom: 50px;
@@ -838,22 +854,49 @@ ul{
   transform: translate(20px) ;
 }
 
-
-
  /* end projects*/
 
 
+ /* start Services */ 
+ .service{
+  padding-top: 5%;
+ }
+
+.service .title{
+  text-align: center;
+}
+.service  .title1 img{
+  width: 2.5%;
+}
+.service  .title1 span{
+  color: #F4A700;
+  font-size: 18px;
+  font-weight: 700;
+}
+.service .title h1{
+  font-size: 52px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+
+ /* end Services */
+
+
  /* start farmer */ 
+ .farmer{
+  padding-top: 5%;
+ }
 .farmer .row{
   justify-content: center;
- }
- .farmer .title {
-  text-align: center;
-  width: 50%;
-  margin: auto;
-  margin-bottom: 3%;
 }
-.farmer .title h3{
+.farmer .title{
+  text-align: center;
+}
+.farmer  .title1 img{
+  width: 2.5%;
+}
+.farmer  .title1 span{
   color: #F4A700;
   font-size: 18px;
   font-weight: 700;
@@ -861,6 +904,7 @@ ul{
 .farmer .title h1{
   font-size: 52px;
   font-weight: 700;
+  padding-top: 15px;
 }
 
  .farmer .parent{
