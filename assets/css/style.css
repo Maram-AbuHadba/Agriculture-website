@@ -96,6 +96,7 @@ header{
  animation-name: contentabove;
  animation-duration: 3s; 
 }
+
 /* animation start from header-content start not screen start*/
 header .header-content{   
  overflow: hidden ;
