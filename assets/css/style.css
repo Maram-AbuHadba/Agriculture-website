@@ -275,6 +275,7 @@ ul{
 
 @media screen and (max-width:575px) {
   .about .row{
+
     flex-direction: column;
   }
 }
@@ -304,6 +305,7 @@ ul{
   display: flex;
   align-items: center;
   gap: 30px;
+  
 }
 
 .project a{
